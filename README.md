@@ -48,14 +48,22 @@ relayr.on('data', function (topic, msg) {
 }
 ```
 
+Listen to a specific device
+```js
+var deviceId = 'af62797a-73db-492d-8aa9-0c0263612512';
+relayr.on(deviceId, function (topic, msg) {
+        console.log(topic + ":" + msg);
+}
+```
+
 Send a Command
 ```js
-relayr.command(token, dev_id, 
+relayr.command(token, dev_id,
     {
-        path:"led", 
-        command:"led", 
+        path:"led",
+        command:"led",
         value:true
-    }, 
+    },
     function (err,code) {
         console.log(err||code)
     });
