@@ -30,9 +30,10 @@ var app_id = "YOURAPPID";
 var dev_id = "YOURDEVICEID";
 var token  = "YOURSENSORTOKEN";
 ```
+
 Initialise the libary
 
-     ```javascript
+```javascript
 var relayr = new Relayr(app_id);
 ```
 
