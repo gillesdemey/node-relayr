@@ -16,7 +16,7 @@ relayr.user(token, function (err, user) {
 
         console.log(devices.length);
         devices.forEach(function (device) {
-            if (device.model.id === "ecf6cf94-cb07-43ac-a85e-dccf26b48c86") {
+            if (device.model.id === "6fbb27dd-ac8f-4d1f-bd82-8d37405d8cfb") {
                 console.log(device);
                 relayr.connect(token, device.id);
             }

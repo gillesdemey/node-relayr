@@ -91,7 +91,7 @@ relayr.deviceModel(token, dev_id, function (err, model) {
 ```
 
 ## Credits
-Big thanks to BinaryMax for putting in the ground work
+Big thanks to ***BinaryMax*** for putting in the ground work for this library.
 
 ## License
 MIT License
