@@ -1,5 +1,5 @@
 {
-  "name": "relayr",
+  "name": "@waylay/relayr",
   "version": "0.4.1",
   "description": "Relayr sensor SDK for node",
   "main": "index.js",
